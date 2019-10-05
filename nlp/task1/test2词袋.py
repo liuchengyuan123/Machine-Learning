@@ -136,3 +136,18 @@ with tf.Session() as sess:
         print(x_in.shape, ans.shape)
         print(sess.run(predict, feed_dict={x: x_in, y_: ans}))
 '''
+'''
+step 0 loss 0.5051048 accuracy 0.575
+step 50 loss 0.13044257 accuracy 0.56
+step 100 loss 0.092423305 accuracy 0.58
+step 150 loss 0.06813327 accuracy 0.595
+step 200 loss 0.051323187 accuracy 0.61
+step 250 loss 0.039062243 accuracy 0.615
+step 300 loss 0.029873652 accuracy 0.625
+step 350 loss 0.022864545 accuracy 0.63
+step 400 loss 0.017480144 accuracy 0.63
+step 450 loss 0.013322119 accuracy 0.635
+
+Process finished with exit code 0
+
+'''
