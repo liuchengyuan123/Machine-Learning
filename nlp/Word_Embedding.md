@@ -66,3 +66,18 @@ CBOW按照上面的说法实现的。下面是我的实现过程：
 ##### skip_gram
 
 之前考虑的都是用上下文预测中心词，skip_gram则是用中心词预测上下文，实现与CBOW模型正好相反。
+
+### 一些优化
+
+#### hierarchical softmax
+
+这是一个优化普通的softmax的做法。
+
+之前我们用softmax做最后一层，计算词典中V各单词各做为target的概率为多少。
+
+hierarchical softmax，将单词做Huffman编码，在树上的每个节点都有一个网络，用sigmoid做激活函数（因为是一个二分类问题，处理向左“0”的概率和向右“1”的概率）
+
+这样，我们的问题就可以从1层V级别的softmax变成logV层二分类问题。
+
+#### 负采样
+
