@@ -22,7 +22,7 @@ p(y_t|y_1, y_2...y_{t-1})
 $$
 然而这种做法很明显只考虑了前面的词，生活中的预料很多情况下我们也需要考虑后面的词汇。
 
-所以在这种做法的基础上我们需要再反向来一遍。**<font face="宋体">这里有没有觉得像ELMO呢</font>。**这就是bi-directional.
+所以在这种做法的基础上我们需要再反向来一遍。**<font face=宋体>这里有没有觉得像ELMO呢</font>。**这就是bi-directional.
 
 然而BERT的论文作者对这个模型仍然不满意，提出了deep bi-directional，称为上下文全向预测模型。作者建议使用transformer。
 
