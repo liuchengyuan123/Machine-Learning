@@ -122,3 +122,19 @@ for iter in range(1, n_iters + 1):
         predict, predict_i = categoryFromOutput(output)
         correct = '✓' if predict == category else '✗ (%s)' % category
         print('%d %d%% %.4f %s / %s %s' % (iter, iter / n_iters * 100, loss, line, predict, correct))
+        
+'''
+5000 5% 2.7751 Fujishima / Spanish ✗ (Japanese)
+10000 10% 2.4353 Serafim / Arabic ✗ (Portuguese)
+15000 15% 3.4000 Szwarc / Arabic ✗ (Polish)
+20000 20% 2.8682 Spoerl / Dutch ✗ (Czech)
+25000 25% 1.4448 Villa / Spanish ✓
+30000 30% 0.7802 Wexler / German ✓
+35000 35% 0.4153 Vuong / Vietnamese ✓
+40000 40% 1.2937 Cleirich / Irish ✓
+45000 45% 1.6546 Thibault / French ✓
+55000 55% 0.6071 Hudecek / Czech ✓
+60000 60% 0.2221 Brzezicki / Polish ✓
+65000 65% 0.8045 Foerstner / German ✓
+70000 70% 0.0602 Assaf / Arabic ✓
+'''
