@@ -1,0 +1,66 @@
+5000 7% 2.7554 Shikuk / Polish ✗ (Japanese) with accuracy 21.7600%
+10000 14% 2.3183 Lebeau / Portuguese ✗ (French) with accuracy 29.7800%
+15000 21% 2.0471 Song / Chinese ✓ with accuracy 36.0800%
+20000 28% 1.8963 Choi / Korean ✓ with accuracy 40.5200%
+25000 35% 1.8049 Lis / Korean ✗ (Polish) with accuracy 43.2000%
+30000 42% 1.7193 Aitken / Dutch ✗ (Scottish) with accuracy 45.5600%
+35000 50% 1.6260 Barsetti / Italian ✓ with accuracy 50.6000%
+40000 57% 1.5899 Rome / English ✗ (French) with accuracy 50.5200%
+45000 64% 1.5314 Reyer / German ✗ (French) with accuracy 51.7200%
+50000 71% 1.4848 Althaus / Vietnamese ✗ (German) with accuracy 54.2200%
+55000 78% 1.4675 Woodhouse / Japanese ✗ (English) with accuracy 54.8000%
+60000 85% 1.4177 Coelho / Portuguese ✓ with accuracy 55.3400%
+65000 92% 1.4287 Bahar / Arabic ✓ with accuracy 55.1200%
+70000 100% 1.4055 Joubert / Dutch ✗ (French) with accuracy 56.0600%
+75000 107% 1.3709 Sai / Chinese ✗ (Russian) with accuracy 56.9600%
+80000 114% 1.3320 Salcedo / Italian ✗ (Spanish) with accuracy 58.3200%
+85000 121% 1.3165 Paitakes / Greek ✓ with accuracy 59.4000%
+90000 128% 1.3155 Sternberg / German ✓ with accuracy 58.6800%
+95000 135% 1.2859 Salazar / Arabic ✗ (Spanish) with accuracy 59.1600%
+100000 142% 1.2930 Gniewek / Czech ✗ (Polish) with accuracy 59.2600%
+105000 150% 1.2904 Gil / Chinese ✗ (Korean) with accuracy 58.8800%
+110000 157% 1.3181 Senft / German ✓ with accuracy 58.4600%
+115000 164% 1.2392 Baba / Arabic ✓ with accuracy 60.7000%
+120000 171% 1.2569 Koutsoubos / Greek ✓ with accuracy 60.0600%
+125000 178% 1.2704 Kenneth / Dutch ✗ (English) with accuracy 59.5800%
+130000 185% 1.2573 Lippi / Italian ✓ with accuracy 59.4000%
+135000 192% 1.2441 Szewc / Polish ✓ with accuracy 60.5600%
+140000 200% 1.2105 Ironmonger / German ✗ (English) with accuracy 61.4000%
+145000 207% 1.2277 Sin / Korean ✓ with accuracy 59.8400%
+150000 214% 1.2113 Klein / Dutch ✗ (Czech) with accuracy 60.9200%
+155000 221% 1.1997 Jon / Chinese ✗ (Korean) with accuracy 61.4600%
+160000 228% 1.1934 Shammas / Arabic ✓ with accuracy 61.8600%
+165000 235% 1.2076 Brisimitzakis / Greek ✓ with accuracy 61.2800%
+170000 242% 1.1961 Silveira / Portuguese ✓ with accuracy 61.6200%
+175000 250% 1.1732 Rom / Korean ✗ (Spanish) with accuracy 62.8000%
+180000 257% 1.1696 Panayiotopoulos / Greek ✓ with accuracy 63.6000%
+185000 264% 1.1683 Maier / French ✗ (German) with accuracy 63.1200%
+190000 271% 1.1868 Kennedy / Irish ✗ (Scottish) with accuracy 61.0800%
+195000 278% 1.1514 Jelen / English ✗ (Polish) with accuracy 62.7200%
+200000 285% 1.1708 Yim / Korean ✓ with accuracy 62.2400%
+205000 292% 1.1767 Kim / Korean ✓ with accuracy 61.9600%
+210000 300% 1.1632 Mcintosh / Scottish ✓ with accuracy 62.3400%
+215000 307% 1.1769 Ku / Korean ✓ with accuracy 62.4400%
+220000 314% 1.1373 Segawa / Japanese ✓ with accuracy 62.9600%
+225000 321% 1.1462 Abel / Spanish ✗ (French) with accuracy 62.2400%
+230000 328% 1.1507 Raske / Czech ✗ (Dutch) with accuracy 63.2400%
+235000 335% 1.1617 Modegi / Italian ✗ (Japanese) with accuracy 62.1200%
+240000 342% 1.1587 Jakuba / Czech ✗ (Russian) with accuracy 63.2400%
+245000 350% 1.1826 Gouveia / Portuguese ✓ with accuracy 60.9200%
+250000 357% 1.1448 Hanania / Czech ✗ (Arabic) with accuracy 63.3000%
+255000 364% 1.1672 Vonnegut / French ✗ (German) with accuracy 63.0400%
+260000 371% 1.1527 Milionis / Greek ✓ with accuracy 62.6400%
+265000 378% 1.1409 Ortiz / Spanish ✓ with accuracy 63.6600%
+270000 385% 1.1684 Rzhavinsky / Scottish ✗ (Russian) with accuracy 62.3000%
+275000 392% 1.1598 Nieri / Italian ✓ with accuracy 63.0800%
+280000 400% 1.1543 Connolly / Irish ✗ (English) with accuracy 62.9000%
+285000 407% 1.1398 Kwang / Korean ✓ with accuracy 62.7000%
+290000 414% 1.1807 Bisset / German ✗ (French) with accuracy 62.0200%
+295000 421% 1.1482 You / Chinese ✗ (Korean) with accuracy 62.6400%
+300000 428% 1.1254 Kobi / Japanese ✓ with accuracy 62.2800%
+305000 435% 1.1301 Likhvantsev / Russian ✓ with accuracy 62.6800%
+310000 442% 1.1434 O'Doherty / English ✗ (Irish) with accuracy 63.4800%
+315000 450% 1.1351 Suaird / French ✗ (Irish) with accuracy 63.0000%
+320000 457% 1.1161 Cunningham / Scottish ✓ with accuracy 63.4600%
+325000 464% 1.1346 Truong / Vietnamese ✓ with accuracy 63.1400%
+330000 471% 1.1333 Mckay / Scottish ✓ with accuracy 63.6200%
