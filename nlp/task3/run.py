@@ -21,10 +21,10 @@ def readLines(filename):
     lines = open(filename).read().strip().split('\n')
     return [UnicodeToAscii(line) for line in lines]
 
-for filename in os.listdir('data/names/'):
+for filename in os.listdir('../../data/names/'):
     category = os.path.splitext(os.path.basename(filename))[0]
     all_categories.append(category)
-    lines = readLines('data/names/' + filename)
+    lines = readLines('../../data/names/' + filename)
     category_lines[category] = lines
 
 n_categories = len(all_categories)
@@ -54,10 +54,12 @@ class RNN(nn.Module):
         self.i2h = nn.Linear(input_size + hidden_size, hidden_size)
         self.i2o = nn.Linear(input_size + hidden_size, output_size)
         self.softmax = nn.LogSoftmax(dim=1)
+        self.tanh = nn.Tanh()
 
     def forward(self, input, hidden):
+        # print("input ", input.device, "hidden ", hidden.device)
         combined = torch.cat((input, hidden), 1)
-        hidden = self.i2h(combined)
+        hidden = self.tanh(self.i2h(combined))
         output = self.i2o(combined)
         output = self.softmax(output)
         return output, hidden
@@ -73,6 +75,9 @@ lr = 0.005
 
 optimizer = torch.optim.SGD(rnn.parameters(), lr=lr)
 
+# move to gpu
+# rnn = rnn.cuda()
+# criterion = criterion.cuda()
 
 # input = lineToTensor('Albert')
 # hidden = torch.zeros(1, n_hidden)
@@ -107,6 +112,8 @@ def randomTrainingExample():
 def train(category_tensor, line_tensor):
     hidden = rnn.initHidden()
     rnn.zero_grad()
+    line_tensor = line_tensor
+    category_tensor = category_tensor
     for i in range(line_tensor.size()[0]):
         output, hidden = rnn(line_tensor[i], hidden)
 
