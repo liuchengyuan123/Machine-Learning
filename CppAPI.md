@@ -96,6 +96,7 @@ int main(int argc, const char* argv[]) {
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(custom_ops)
 
+set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} "/libtorch")
 find_package(Torch REQUIRED)
 
 add_executable(example-app example-app.cpp)
@@ -106,7 +107,7 @@ set_property(TARGET example-app PROPERTY CXX_STANDARD 11)
 ```bash
 root@ubuntu:~/test# mkdir build
 root@ubuntu:~/test# cd build
-root@ubuntu:~/test/build# cmake -DCMAKE_PREFIX_PATH=/libtorch ..
+root@ubuntu:~/test/build# cmake
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
